@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	maxDuration = time.Second * 60
+	maxDuration = time.Second * 60 * 60
 )
 
 type Info struct {
